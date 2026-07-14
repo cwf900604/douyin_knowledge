@@ -1,0 +1,32 @@
+# 系统文件
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# 临时文件
+*.tmp
+*.bak
+*.swp
+*~
+
+# 导出文件（本地导出，不上传）
+exports/
+
+# 原始视频文件（太大，不上传 Git）
+raw/**/*.mp4
+raw/**/*.avi
+raw/**/*.mov
+raw/**/*.flv
+raw/**/*.mkv
+raw/**/*.wav
+raw/**/*.mp3
+
+# 已处理的原始素材（可选排除）
+raw/**/已处理/
+
+# IDE / 编辑器
+.vscode/
+.idea/
+
+# 系统文件
+$RECYCLE.BIN/
